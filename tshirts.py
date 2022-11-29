@@ -9,6 +9,7 @@ def size(cms):
 
 
 assert(size(37) == 'S')
+assert(size(38) == 'S') #code fails to categorize properly when it tshirt size is exactly 38, it classifies as Large but it is not.
 assert(size(40) == 'M')
 assert(size(43) == 'L')
 print("All is well (maybe!)\n")
