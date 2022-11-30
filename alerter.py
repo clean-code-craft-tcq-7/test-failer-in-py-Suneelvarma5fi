@@ -7,7 +7,7 @@ def network_alert_stub(celcius):
     # Return 200 for ok
     # Return 500 for not-ok
     # stub always succeeds and returns 200
-    return 200 if temperature_threshold < 100 else 500
+    return 200 if celcius < temperature_threshold else 500
 
 def alert_in_celcius(farenheit):
     celcius = (farenheit - 32) * 5 / 9
