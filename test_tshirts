@@ -1,0 +1,12 @@
+import tshirts
+
+def test_tshirts():
+    assert(size(37) == 'S')
+    assert(size(38) == 'M') 
+    assert(size(40) == 'M')
+    assert(size(43) == 'L')
+    
+if __name__ == '__main__':
+    test_tshirts()
+
+print("All is well\n")
